@@ -1,0 +1,110 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.navbar{
+	display: flex;
+	
+}
+
+.rightNav{
+	width: 40%;
+	text-align: right;
+	margin: 3px;
+	padding: 5px;
+	
+}
+
+.logo{
+	width: 60%;
+	text-align: right;
+	
+}
+
+.nav-list li{
+	list-style: none;
+	padding: 10px 30px 0px 45px;
+	height: 30px;
+
+}
+
+.nav-list li a{
+	text-decoration: none;
+	margin: 50px;
+	color: yellow;
+	margin-top: 20px;
+}
+.nav-list li a:hover{
+	color: black;
+}
+
+.list:hover{
+	text-decoration-style: solid;
+	background-color: orange;
+	text-underline-position: auto;
+	color: black;
+	
+}
+
+
+.nav-list{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	background-color: black;
+	position: sticky;
+	cursor: pointer;
+	top: 0;
+
+}
+
+#search{
+	padding: 5px;
+	font-size: 17px;
+	border: 2px solid grey;
+	border-radius: 9px;
+}
+.burger{
+	background-image: url('pizza.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat; 
+	display: flex;
+	padding: 0px 0px 0px;
+	height: 520px;
+
+}
+.para{
+	text-align: center;
+    justify-content: right;
+    
+    color: yellow;
+    width: 521px;
+    height: 45px;
+    margin-left: 658px;
+    margin-top: 130px;
+    font-size: 25px;
+}
+
+
+.cuisine{
+	text-align: center;
+    justify-content: right;
+    
+    color: yellow;
+    width: 0px;
+    height: 0px;
+    margin-left: -250px;
+    margin-top: 40px;
+}
+.cuisinelist-section{
+	margin-top: 150px;
+	margin-right: 130px;
+}
+.cuisinelist{
+	list-style: square;
+}
+
+
+
